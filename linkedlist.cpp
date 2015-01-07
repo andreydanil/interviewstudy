@@ -214,4 +214,17 @@ LinkedList<T>::~LinkedList()
 }
 int main(int argc, char *argv[]) {
 	cout << "Call linked list template functions" << endl;
+	
+	// Define a LinkedList object.
+	LinkedList<FeetInches> list;
+	
+	// Define FeetInches objects.
+	FeetInches distance(5,4);
+	
+	// Store FeetInches objects in the list.
+	list.appendNode(distance);
+	
+	// Display the values in the list
+	cout << "Initial values" << endl;
+	list.displayList();
 }
