@@ -227,4 +227,15 @@ int main(int argc, char *argv[]) {
 	// Display the values in the list
 	cout << "Initial values" << endl;
 	list.displayList();
+	
+	// Delete the last node.
+	cout << "Deleting the last node.\n"
+	FeetInches distance(5,4);
+	list.deleteNode(distance);
+	
+	// Display the values in the list
+	cout << "Here are the nodes left.\n"
+	list.displayList();
+	
+	return 0;
 }
