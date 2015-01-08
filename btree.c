@@ -25,7 +25,55 @@
 
 struct Node {
 	int data;
-	Node * left;
-	Node * right;
+	Node *left;
+	Node *right;
 };
+
+#include <iostream>
+
+using namespace std;
+
+class btree
+{
+	public:
+		btree();
+		~btree();
+		
+		void insert(int key);
+		node *search (int key);
+		void destroy_tree();
+		
+	private:
+		void destroy_tree(node *leaf);
+		void insert(int key, node *leaf);
+		node *search(int key, node *leaf);
+		
+		node *root;
+};
+
+// Initializing tree.
+btree::btree()
+{
+	root=NULL;
+}
+
+btree::~btree()
+{
+	root = NULL;
+}
+
+void btree::destroy_tree(nod	e *leaf)
+{
+	if(leaf!=NULL)
+	{
+		destroy_tree(leaf->left);
+		destroy_tree(leaf->right);
+		delete leaf;
+	}
+}
+
+
+node *btree::search(int key){
+	return search(key,root);
+}
 
