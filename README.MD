@@ -14,21 +14,22 @@ Study Tips
 11) Coursera courses and assignments give a lot of what you need to know.
 12) Note that all the above except the first 2 are useful in "real life" programming too!
 
-Interview 1:
+### Interview 1:
 Graph related question and super recursion
 
-Interview 2:
+### Interview 2:
 Design discussion involving a distributed system with writes/reads going on at different sites in parallel.
 
-Interview 3:
+### Interview 3:
 Array and Tree related questions
 
-Interview 4:
+### Interview 4:
 Designing a simple class to do something. Not hard, but not easy either. You need to know basic data structures very well to consider different designs and trade-offs.
 
-Interview 5:
+### Interview 5:
 Dynamic programming,
 Computer architecture and low level perf. enhancement question which requires knowledge of Trees, binary search, etc.
+
 
 1. Recursions
 2. Dynamic Programming
@@ -38,7 +39,7 @@ Computer architecture and low level perf. enhancement question which requires kn
 6. Array and Tree
 7. Computer architecture (binary search, low level enhancement...etc)
 
--- By Author unknown.
+##### By Author unknown:
 
 1.) Algorithm Complexity: You need to know Big-O. If you struggle with
 basic big-O complexity analysis, then you are almost guaranteed not to
@@ -112,3 +113,4 @@ ways to represent a graph in memory (objects and pointers, matrix, and
   system and underlying hardware. Know a little about scheduling. The
   world is rapidly moving towards multi-core, so know the fundamentals
   of "modern" concurrency constructs.
+  
